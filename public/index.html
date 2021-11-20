@@ -6,8 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind Food</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-<body>
-    <h1>Tailwind Food</h1>
+<body class="min-h-screen bg-gray-100">
+    <div class="bg-primary p-2 text-text flex justify-between items-center">
+        <div><img src="assets/images/hamburger.png" alt="Hamburger" srcset=""></div>
+        <div><a href=""><img src="assets/images/menu.png" alt=""></a></div>
+    </div>
+    <div class="lg:h-80 h-40 bg-no-repeat bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1503591099259-a96e250e0a67?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&q=80')"></div>
+    <main class="container mx-auto p-4 sm:flex sm:flex-wrap sm:justify-around">
+        <div class="mt-4 mx-2 sm:w-5/12 sm:flex sm:bg-white sm:rounded-lg md:shadow-lg">
+            <div class="md:w-1/2"><img class="w-full h-full rounded-lg md:rounded-r-none object-cover" src="https://images.unsplash.com/photo-1598182198871-d3f4ab4fd181?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&q=50" alt="Burger"></div>
+            <div class="md:w-1/2 relative shadow-lg mx-2 p-2 bg-white rounded-lg -mt-2 sm:bg-transparent sm:shadow-none">
+                <h2 class="text-xl tracking-tight font-semibold text-gray-900 uppercase sm:text-lg md:mt-10">Hamburguesa con queso</h2>
+                <p class="text-gray-700 leading-snug">Hamburguesa con queso tipo americano y aderezo de blue chesse</p>
+                <div class="text-sm font-semibold text-gray-700 mt-2 text-right">MXN $60</div>
+                <div class="text-yellow-400 text-xs mt-2">&starf;&starf;&starf;&starf;&star; / 36 reseñas</div>
+            </div>
+        </div>
+        <div class="mt-4 mx-2 sm:w-5/12 sm:flex sm:bg-white sm:rounded-lg md:shadow-lg">
+            <div class="md:w-1/2"><img class="w-full h-full rounded-lg md:rounded-r-none object-cover" src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&q=50" alt="Burger"></div>
+            <div class="md:w-1/2 relative shadow-lg mx-2 p-2 bg-white rounded-lg -mt-2 sm:bg-transparent sm:shadow-none">
+                <h2 class="text-xl tracking-tight font-semibold text-gray-900 uppercase sm:text-lg lg:mt-10">Hamburguesa doble carne con queso</h2>
+                <p class="text-gray-700 leading-snug">Disfruta de más carne con nuestra hamburguesa doble carne con queso tipo americano y aderezo de blue chesse</p>
+                <div class="text-sm font-semibold text-gray-700 mt-2 text-right">MXN $80</div>
+                <div class="text-yellow-400 text-xs mt-2">&starf;&starf;&starf;&starf;&starf; / 22 reseñas</div>
+            </div>
+        </div>
+        <div class="mt-4 mx-2 sm:w-5/12 sm:flex sm:bg-white sm:rounded-lg md:shadow-lg">
+            <div class="md:w-1/2"><img class="w-full h-full rounded-lg md:rounded-r-none object-cover" src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&q=50" alt="Burger"></div>
+            <div class="md:w-1/2 relative shadow-lg mx-2 p-2 bg-white rounded-lg -mt-2 sm:bg-transparent sm:shadow-none">
+                <h2 class="text-xl tracking-tight font-semibold text-gray-900 uppercase sm:text-lg lg:mt-10">Hamburguesa poche</h2>
+                <p class="text-gray-700 leading-snug">Una comida completa en una hamburguesa, con jamón y huevo estrellado no te quedarás con hambre</p>
+                <div class="text-sm font-semibold text-gray-700 mt-2 text-right">MXN $110</div>
+                <div class="text-yellow-400 text-xs mt-2">&starf;&starf;&starf;&starf;&starf; / 70 reseñas</div>
+            </div>
+        </div>
+        <div class="mt-4 mx-2 sm:w-5/12 sm:flex sm:bg-white sm:rounded-lg md:shadow-lg">
+            <div class="md:w-1/2"><img class="w-full h-full rounded-lg md:rounded-r-none object-cover" src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&q=50" alt="Burger"></div>
+            <div class="md:w-1/2 relative shadow-lg mx-2 p-2 bg-white rounded-lg -mt-2 sm:bg-transparent sm:shadow-none">
+                <h2 class="text-xl tracking-tight font-semibold text-gray-900 uppercase sm:text-lg md:mt-4 lg:mt-10">Hamburguesa de pollo</h2>
+                <p class="text-gray-700 leading-snug">Si estás peleado con la res, tenemos la opción de pollo con nuestra salsa chipotle especial</p>
+                <div class="text-sm font-semibold text-gray-700 mt-2 text-right">MXN $110</div>
+                <div class="text-yellow-400 text-xs mt-2">&starf;&starf;&starf;&starf;&starf; / 33 reseñas</div>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-8 w-full bg-secondary p-4">
+        <div class="md:flex flex-row-reverse justify-around">
+            <div class="mt-4 ml-8">
+                <div><a href="" class="hover:text-primary"><i class="fab fa-facebook-square"></i> /tailwindfood</a></div>
+                <div><a href="" class="hover:text-primary"><i class="fab fa-twitter-square"></i> @tailwindfood</a></div>
+                <div><a href="" class="hover:text-primary"><i class="fab fa-instagram-square"></i> tailwindfood</a></div>
+            </div>
+            <div class="mt-4 mb-4 ml-8">
+                <ul>
+                    <li><a href="" class="hover:text-primary">Soporte</a></li>
+                    <li><a href="" class="hover:text-primary">Nosotros</a></li>
+                    <li><a href="" class="hover:text-primary">Registro</a></li>
+                    <li><a href="" class="hover:text-primary">Aviso de privacidad</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
