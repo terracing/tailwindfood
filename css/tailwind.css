@@ -1,3 +1,16 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+form label {
+    @apply block text-xs text-gray-600;
+}
+form input, form textarea {
+    @apply block p-2 my-2 w-full text-gray-600 rounded-md;
+}
+form textarea {
+    resize: none;
+}
+form button {
+    @apply bg-primary hover:bg-secondary text-gray-800 hover:text-primary text-lg leading-6 font-semibold p-2 mt-4 rounded-md transition-colors duration-200;
+}
